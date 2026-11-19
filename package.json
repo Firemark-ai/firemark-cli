@@ -1,6 +1,6 @@
 {
   "name": "@firemark-ai/cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read your Firemark AI visibility results from the terminal: brands, results, prompts and stored answers.",
   "license": "MIT",
   "author": "Tenpoint Labs",
@@ -25,7 +25,8 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "engines": {
     "node": ">=20"
