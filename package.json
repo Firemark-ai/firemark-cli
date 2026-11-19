@@ -1,5 +1,5 @@
 {
-  "name": "@firemark/cli",
+  "name": "@firemark-ai/cli",
   "version": "0.1.0",
   "description": "Read your Firemark AI visibility results from the terminal: brands, results, prompts and stored answers.",
   "license": "MIT",

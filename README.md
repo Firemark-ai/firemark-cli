@@ -11,10 +11,10 @@ changes a brand.
 Node.js 20 or later.
 
 ```sh
-npm install -g @firemark/cli
+npm install -g @firemark-ai/cli
 ```
 
-Or run it without installing: `npx @firemark/cli brands`.
+Or run it without installing: `npx @firemark-ai/cli brands`.
 
 ## Log in
 
