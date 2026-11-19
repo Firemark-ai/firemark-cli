@@ -1,0 +1,91 @@
+{
+  "schema": "answer",
+  "schema_version": 1,
+  "brand_id": "8d2f4b1c-6a3e-4f7d-9b20-5c1e7a9d3f42",
+  "run_id": "c3a1e5f7-9b2d-4e6a-8f1c-3d5b7a9e2c40",
+  "prompt_id": "P003",
+  "prompt": "Best retail CRM for a three-store apparel brand",
+  "engines": {
+    "chatgpt": {
+      "status": "ok",
+      "model": "gpt-5.1",
+      "snippet": "Larkspur is built for small multi-store apparel teams…",
+      "text": "For a three-store apparel brand, two options stand out.\n\n1. Larkspur is built for small multi-store apparel teams, with clienteling on the shop floor.\n2. Fernwood suits larger chains that want deep loyalty tooling.",
+      "sources": [
+        {
+          "url": "https://larkspur.example/clienteling",
+          "title": "Clienteling for boutiques",
+          "domain": "larkspur.example"
+        },
+        {
+          "url": "https://retailtalk.example/crm-guide",
+          "title": null,
+          "domain": "retailtalk.example"
+        }
+      ],
+      "matches": [
+        {
+          "id": "8d2f4b1c-6a3e-4f7d-9b20-5c1e7a9d3f42",
+          "name": "Larkspur",
+          "spans": [
+            [
+              59,
+              67
+            ]
+          ],
+          "linked": true
+        },
+        {
+          "id": "cmp_fernwood",
+          "name": "Fernwood",
+          "spans": [
+            [
+              144,
+              152
+            ]
+          ],
+          "linked": false
+        }
+      ]
+    },
+    "perplexity": {
+      "status": "ok",
+      "model": null,
+      "snippet": "Larkspur and Fernwood both…",
+      "text": "Larkspur and Fernwood both offer store-level CRM.",
+      "sources": [],
+      "matches": [
+        {
+          "id": "8d2f4b1c-6a3e-4f7d-9b20-5c1e7a9d3f42",
+          "name": "Larkspur",
+          "spans": [
+            [
+              0,
+              8
+            ]
+          ],
+          "linked": false
+        },
+        {
+          "id": "cmp_fernwood",
+          "name": "Fernwood",
+          "spans": [
+            [
+              13,
+              21
+            ]
+          ],
+          "linked": false
+        }
+      ]
+    },
+    "gemini": {
+      "status": "no_answer",
+      "model": null,
+      "snippet": null,
+      "text": "",
+      "sources": [],
+      "matches": []
+    }
+  }
+}

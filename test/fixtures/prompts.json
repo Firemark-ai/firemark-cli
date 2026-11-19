@@ -1,0 +1,694 @@
+{
+  "schema": "prompts",
+  "schema_version": 3,
+  "brand_id": "8d2f4b1c-6a3e-4f7d-9b20-5c1e7a9d3f42",
+  "run": {
+    "id": "c3a1e5f7-9b2d-4e6a-8f1c-3d5b7a9e2c40",
+    "number": 12,
+    "date": "2026-11-16"
+  },
+  "publication_version": 14,
+  "engines": [
+    {
+      "key": "chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "key": "perplexity",
+      "label": "Perplexity"
+    },
+    {
+      "key": "ai_overviews",
+      "label": "AI Overviews"
+    },
+    {
+      "key": "ai_mode",
+      "label": "AI Mode"
+    },
+    {
+      "key": "gemini",
+      "label": "Gemini"
+    }
+  ],
+  "competitors": [
+    {
+      "id": "cmp_fernwood",
+      "name": "Fernwood",
+      "floored": false
+    },
+    {
+      "id": "cmp_halden",
+      "name": "Halden & Co",
+      "floored": false
+    },
+    {
+      "id": "cmp_marrow",
+      "name": "Marrow Supply",
+      "floored": false
+    }
+  ],
+  "history": {
+    "recent": [
+      {
+        "id": "a9e7c5b3-1d2f-4a6c-8e0b-2f4d6a8c0e19",
+        "number": 11,
+        "date": "2026-11-09"
+      },
+      {
+        "id": "c3a1e5f7-9b2d-4e6a-8f1c-3d5b7a9e2c40",
+        "number": 12,
+        "date": "2026-11-16"
+      }
+    ],
+    "weeks": [],
+    "months": []
+  },
+  "breaks": [],
+  "prompts": [
+    {
+      "id": "P001",
+      "text": "What should I look for in a clienteling app for a small boutique?",
+      "stage": "tofu",
+      "persona": "Boutique owner",
+      "category": null,
+      "archetype": null,
+      "verdicts": {
+        "chatgpt": {
+          "state": "named",
+          "named": true,
+          "linked": false,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "perplexity": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood",
+            "cmp_halden"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_overviews": {
+          "state": "named_linked",
+          "named": true,
+          "linked": true,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_mode": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [
+            "cmp_halden"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "gemini": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        }
+      },
+      "named_engines": 2,
+      "history": {
+        "chatgpt": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "perplexity": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_overviews": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_mode": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "gemini": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        }
+      },
+      "branded": false
+    },
+    {
+      "id": "P002",
+      "text": "How do independent fashion stores keep in touch with repeat customers?",
+      "stage": "tofu",
+      "persona": "Boutique owner",
+      "category": null,
+      "archetype": null,
+      "verdicts": {
+        "chatgpt": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [
+            "cmp_halden"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "perplexity": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_overviews": {
+          "state": "named",
+          "named": true,
+          "linked": false,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_mode": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "gemini": {
+          "state": "linked",
+          "named": false,
+          "linked": true,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [
+            "cmp_marrow"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        }
+      },
+      "named_engines": 1,
+      "history": {
+        "chatgpt": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "perplexity": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_overviews": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_mode": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "gemini": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        }
+      },
+      "branded": false
+    },
+    {
+      "id": "P003",
+      "text": "Best retail CRM for a three-store apparel brand",
+      "stage": "mofu",
+      "persona": "Boutique owner",
+      "category": null,
+      "archetype": null,
+      "verdicts": {
+        "chatgpt": {
+          "state": "named_linked",
+          "named": true,
+          "linked": true,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "perplexity": {
+          "state": "named",
+          "named": true,
+          "linked": false,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_overviews": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood",
+            "cmp_marrow"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_mode": {
+          "state": "named",
+          "named": true,
+          "linked": false,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [
+            "cmp_halden"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "gemini": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        }
+      },
+      "named_engines": 3,
+      "history": {
+        "chatgpt": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "perplexity": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_overviews": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_mode": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "gemini": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        }
+      },
+      "branded": false
+    },
+    {
+      "id": "P004",
+      "text": "Clienteling tools that work with Shopify POS",
+      "stage": "mofu",
+      "persona": "Boutique owner",
+      "category": null,
+      "archetype": null,
+      "verdicts": {
+        "chatgpt": {
+          "state": "named",
+          "named": true,
+          "linked": false,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "perplexity": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_overviews": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [
+            "cmp_halden"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_mode": null,
+        "gemini": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        }
+      },
+      "named_engines": 1,
+      "history": {
+        "chatgpt": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "perplexity": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_overviews": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_mode": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "gemini": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        }
+      },
+      "branded": false
+    },
+    {
+      "id": "P005",
+      "text": "Larkspur vs Fernwood for store associates",
+      "stage": "bofu",
+      "persona": "Boutique owner",
+      "category": null,
+      "archetype": null,
+      "verdicts": {
+        "chatgpt": {
+          "state": "named_linked",
+          "named": true,
+          "linked": true,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "perplexity": {
+          "state": "named_linked",
+          "named": true,
+          "linked": true,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_overviews": {
+          "state": "named",
+          "named": true,
+          "linked": false,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_mode": {
+          "state": "named_linked",
+          "named": true,
+          "linked": true,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "gemini": {
+          "state": "named",
+          "named": true,
+          "linked": false,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [
+            "cmp_fernwood"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        }
+      },
+      "named_engines": 5,
+      "history": {
+        "chatgpt": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "perplexity": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_overviews": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_mode": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "gemini": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        }
+      },
+      "branded": true
+    },
+    {
+      "id": "P006",
+      "text": "Is Larkspur worth it for a single boutique?",
+      "stage": "bofu",
+      "persona": "Boutique owner",
+      "category": null,
+      "archetype": null,
+      "verdicts": {
+        "chatgpt": {
+          "state": "named",
+          "named": true,
+          "linked": false,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "perplexity": {
+          "state": "named_linked",
+          "named": true,
+          "linked": true,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_overviews": {
+          "state": "absent",
+          "named": false,
+          "linked": false,
+          "position": null,
+          "sentiment": null,
+          "unclear": false,
+          "competitors": [
+            "cmp_marrow"
+          ],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "ai_mode": {
+          "state": "named",
+          "named": true,
+          "linked": false,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        },
+        "gemini": {
+          "state": "named_linked",
+          "named": true,
+          "linked": true,
+          "position": "first",
+          "sentiment": "neutral",
+          "unclear": false,
+          "competitors": [],
+          "competitors_linked": [],
+          "changed": false,
+          "kind": "answered"
+        }
+      },
+      "named_engines": 4,
+      "history": {
+        "chatgpt": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "perplexity": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_overviews": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "ai_mode": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        },
+        "gemini": {
+          "recent": "10",
+          "weeks": "10",
+          "months": "1"
+        }
+      },
+      "branded": true
+    }
+  ]
+}

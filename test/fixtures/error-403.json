@@ -1,0 +1,4 @@
+{
+  "error": "The API is included on every paid plan. Choose a plan in Billing to use this key.",
+  "code": "plan_required"
+}

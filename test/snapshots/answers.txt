@@ -1,0 +1,22 @@
+Larkspur · P003 · run c3a1e5f7-9b2d-4e6a-8f1c-3d5b7a9e2c40
+Prompt: Best retail CRM for a three-store apparel brand
+
+== ChatGPT (gpt-5.1) ==
+Tracked names found: Larkspur (linked), Fernwood
+Sources (2):
+  1. Clienteling for boutiques · https://larkspur.example/clienteling
+  2. https://retailtalk.example/crm-guide
+Answer:
+  For a three-store apparel brand, two options stand out.
+
+  1. Larkspur is built for small multi-store apparel teams, with clienteling on the shop floor.
+  2. Fernwood suits larger chains that want deep loyalty tooling.
+
+== Perplexity ==
+Tracked names found: Larkspur, Fernwood
+Sources: none
+Answer:
+  Larkspur and Fernwood both offer store-level CRM.
+
+== Gemini ==
+Status: no answer

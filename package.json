@@ -1,0 +1,47 @@
+{
+  "name": "@firemark/cli",
+  "version": "0.1.0",
+  "description": "Read your Firemark AI visibility results from the terminal: brands, results, prompts and stored answers.",
+  "license": "MIT",
+  "author": "Tenpoint Labs",
+  "homepage": "https://tryfiremark.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firemark-ai/firemark-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Firemark-ai/firemark-cli/issues"
+  },
+  "keywords": [
+    "firemark",
+    "ai-visibility",
+    "ai-search",
+    "cli"
+  ],
+  "type": "module",
+  "bin": {
+    "firemark": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json && chmod +x dist/cli.js",
+    "lint": "tsc -p tsconfig.test.json --noEmit",
+    "test": "rm -rf build && tsc -p tsconfig.test.json && node --test build/test/*.test.js",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.9.3"
+  }
+}

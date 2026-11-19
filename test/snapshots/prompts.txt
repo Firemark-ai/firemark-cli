@@ -1,0 +1,18 @@
+Larkspur · run 12 · 2026-11-16 · 6 prompts
+
+ID    STAGE  NAMED ON        GPT  PPLX  AIO  AIM  GEM
+P001  tofu   2 of 5 engines  N    -     NL   -    -
+      What should I look for in a clienteling app for a small boutique?
+P002  tofu   1 of 5 engines  -    -     N    -    L
+      How do independent fashion stores keep in touch with repeat customers?
+P003  mofu   3 of 5 engines  NL   N     -    N    -
+      Best retail CRM for a three-store apparel brand
+P004  mofu   1 of 4 engines  N    -     -         -
+      Clienteling tools that work with Shopify POS
+P005  bofu   5 of 5 engines  NL   NL    N    NL   N
+      Larkspur vs Fernwood for store associates
+P006  bofu   4 of 5 engines  N    NL    -    N    NL
+      Is Larkspur worth it for a single boutique?
+
+NL named and linked · N named · L linked, not named · - neither · blank: not asked
+Engines: GPT ChatGPT, PPLX Perplexity, AIO AI Overviews, AIM AI Mode, GEM Gemini

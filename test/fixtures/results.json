@@ -1,0 +1,617 @@
+{
+  "schema": "results",
+  "schema_version": 4,
+  "brand": {
+    "id": "8d2f4b1c-6a3e-4f7d-9b20-5c1e7a9d3f42",
+    "name": "Larkspur",
+    "domains": [
+      "larkspur.example"
+    ]
+  },
+  "context": {
+    "run": {
+      "id": "c3a1e5f7-9b2d-4e6a-8f1c-3d5b7a9e2c40",
+      "number": 12,
+      "date": "2026-11-16",
+      "state": "complete",
+      "runs_to_date": 12
+    },
+    "publication": {
+      "version": 14,
+      "reason": "run",
+      "scorer_version": "s-2026.11",
+      "rules_version": "claims-6"
+    },
+    "location": {
+      "country": "US",
+      "language": "en"
+    },
+    "prompts": 6,
+    "engines": [
+      {
+        "key": "chatgpt",
+        "label": "ChatGPT",
+        "full_label": "ChatGPT",
+        "method": "api",
+        "asked": 6,
+        "base": 6,
+        "coverage": 1,
+        "short": false
+      },
+      {
+        "key": "perplexity",
+        "label": "Perplexity",
+        "full_label": "Perplexity",
+        "method": "api",
+        "asked": 6,
+        "base": 6,
+        "coverage": 1,
+        "short": false
+      },
+      {
+        "key": "ai_overviews",
+        "label": "AI Overviews",
+        "full_label": "AI Overviews",
+        "method": "api",
+        "asked": 6,
+        "base": 6,
+        "coverage": 1,
+        "short": false
+      },
+      {
+        "key": "ai_mode",
+        "label": "AI Mode",
+        "full_label": "AI Mode",
+        "method": "api",
+        "asked": 5,
+        "base": 5,
+        "coverage": 1,
+        "short": false
+      },
+      {
+        "key": "gemini",
+        "label": "Gemini",
+        "full_label": "Gemini",
+        "method": "api",
+        "asked": 6,
+        "base": 6,
+        "coverage": 1,
+        "short": false
+      }
+    ],
+    "bases": {
+      "overall": 29,
+      "by_engine": {
+        "chatgpt": 6,
+        "perplexity": 6,
+        "ai_overviews": 6,
+        "ai_mode": 5,
+        "gemini": 6
+      }
+    },
+    "breaks": [
+      {
+        "engine": "ai_mode",
+        "kind": "method",
+        "run_id": "a9e7c5b3-1d2f-4a6c-8e0b-2f4d6a8c0e19",
+        "date": "2026-11-09",
+        "note": "AI Mode answers are read a new way from this run."
+      }
+    ],
+    "recounts": [],
+    "floors": {
+      "competitor": 3,
+      "share_min_base": 20,
+      "coverage": 0.8
+    }
+  },
+  "counts": {
+    "overall": {
+      "k": 16,
+      "n": 29
+    },
+    "linked": {
+      "k": 8,
+      "n": 29
+    },
+    "by_engine": {
+      "chatgpt": {
+        "k": 5,
+        "n": 6
+      },
+      "perplexity": {
+        "k": 3,
+        "n": 6
+      },
+      "ai_overviews": {
+        "k": 3,
+        "n": 6
+      },
+      "ai_mode": {
+        "k": 3,
+        "n": 5
+      },
+      "gemini": {
+        "k": 2,
+        "n": 6
+      }
+    },
+    "by_stage": {
+      "tofu": {
+        "k": 3,
+        "n": 10
+      },
+      "mofu": {
+        "k": 4,
+        "n": 9
+      },
+      "bofu": {
+        "k": 9,
+        "n": 10
+      }
+    },
+    "engine_stage": {},
+    "states": {
+      "named_linked": 7,
+      "named": 9,
+      "linked": 1,
+      "absent": 12
+    },
+    "outcomes": {
+      "named": 16,
+      "competitor": 10,
+      "nobody": 3,
+      "linked_only": 1
+    }
+  },
+  "series": {
+    "runs": [
+      {
+        "id": "a9e7c5b3-1d2f-4a6c-8e0b-2f4d6a8c0e19",
+        "number": 11,
+        "date": "2026-11-09",
+        "full": true,
+        "week": "2026-W45",
+        "month": "2026-11"
+      },
+      {
+        "id": "c3a1e5f7-9b2d-4e6a-8f1c-3d5b7a9e2c40",
+        "number": 12,
+        "date": "2026-11-16",
+        "full": true,
+        "week": "2026-W46",
+        "month": "2026-11"
+      }
+    ],
+    "samples": {
+      "weeks": [
+        1,
+        1
+      ],
+      "months": [
+        2
+      ]
+    },
+    "brand": {
+      "overall": [
+        {
+          "k": 12,
+          "n": 29
+        },
+        {
+          "k": 16,
+          "n": 29
+        }
+      ],
+      "by_engine": {}
+    },
+    "competitors": {}
+  },
+  "ranks": [
+    null,
+    {
+      "of": 4,
+      "order": [
+        {
+          "id": "cmp_fernwood",
+          "rank": 1,
+          "tie": false
+        },
+        {
+          "id": "8d2f4b1c-6a3e-4f7d-9b20-5c1e7a9d3f42",
+          "rank": 2,
+          "tie": false
+        },
+        {
+          "id": "cmp_halden",
+          "rank": 3,
+          "tie": false
+        },
+        {
+          "id": "cmp_marrow",
+          "rank": 4,
+          "tie": false
+        }
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "id": "cmp_fernwood",
+      "name": "Fernwood",
+      "domains": [
+        "fernwood.example"
+      ],
+      "floored": false,
+      "k": 14,
+      "n": 29,
+      "by_engine": {
+        "chatgpt": {
+          "k": 3,
+          "n": 6
+        },
+        "perplexity": {
+          "k": 4,
+          "n": 6
+        },
+        "ai_overviews": {
+          "k": 3,
+          "n": 6
+        },
+        "ai_mode": {
+          "k": 1,
+          "n": 5
+        },
+        "gemini": {
+          "k": 3,
+          "n": 6
+        }
+      },
+      "rank": 1
+    },
+    {
+      "id": "cmp_halden",
+      "name": "Halden & Co",
+      "domains": [
+        "haldenco.example"
+      ],
+      "floored": false,
+      "k": 5,
+      "n": 29,
+      "by_engine": {
+        "chatgpt": {
+          "k": 1,
+          "n": 6
+        },
+        "perplexity": {
+          "k": 1,
+          "n": 6
+        },
+        "ai_overviews": {
+          "k": 1,
+          "n": 6
+        },
+        "ai_mode": {
+          "k": 2,
+          "n": 5
+        },
+        "gemini": {
+          "k": 0,
+          "n": 6
+        }
+      },
+      "rank": 3
+    },
+    {
+      "id": "cmp_marrow",
+      "name": "Marrow Supply",
+      "domains": [
+        "marrowsupply.example"
+      ],
+      "floored": false,
+      "k": 3,
+      "n": 29,
+      "by_engine": {
+        "chatgpt": {
+          "k": 0,
+          "n": 6
+        },
+        "perplexity": {
+          "k": 0,
+          "n": 6
+        },
+        "ai_overviews": {
+          "k": 2,
+          "n": 6
+        },
+        "ai_mode": {
+          "k": 0,
+          "n": 5
+        },
+        "gemini": {
+          "k": 1,
+          "n": 6
+        }
+      },
+      "rank": 4
+    }
+  ],
+  "sources": {
+    "total_sites": 3,
+    "rows": [
+      {
+        "domain": "larkspur.example",
+        "cites": 6,
+        "won": 6,
+        "lost": 0
+      },
+      {
+        "domain": "fernwood.example",
+        "cites": 5,
+        "won": 1,
+        "lost": 4,
+        "tracked": "cmp_fernwood"
+      },
+      {
+        "domain": "retailtalk.example",
+        "cites": 3,
+        "won": 2,
+        "lost": 1
+      }
+    ]
+  },
+  "answers": [
+    {
+      "p": "P001",
+      "e": "chatgpt",
+      "stage": "tofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named"
+    },
+    {
+      "p": "P001",
+      "e": "perplexity",
+      "stage": "tofu",
+      "outcome": "competitor",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P001",
+      "e": "ai_overviews",
+      "stage": "tofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named_linked"
+    },
+    {
+      "p": "P001",
+      "e": "ai_mode",
+      "stage": "tofu",
+      "outcome": "competitor",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P001",
+      "e": "gemini",
+      "stage": "tofu",
+      "outcome": "competitor",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P002",
+      "e": "chatgpt",
+      "stage": "tofu",
+      "outcome": "competitor",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P002",
+      "e": "perplexity",
+      "stage": "tofu",
+      "outcome": "nobody",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P002",
+      "e": "ai_overviews",
+      "stage": "tofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named"
+    },
+    {
+      "p": "P002",
+      "e": "ai_mode",
+      "stage": "tofu",
+      "outcome": "nobody",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P002",
+      "e": "gemini",
+      "stage": "tofu",
+      "outcome": "competitor",
+      "linked_only": true,
+      "state": "linked"
+    },
+    {
+      "p": "P003",
+      "e": "chatgpt",
+      "stage": "mofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named_linked"
+    },
+    {
+      "p": "P003",
+      "e": "perplexity",
+      "stage": "mofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named"
+    },
+    {
+      "p": "P003",
+      "e": "ai_overviews",
+      "stage": "mofu",
+      "outcome": "competitor",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P003",
+      "e": "ai_mode",
+      "stage": "mofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named"
+    },
+    {
+      "p": "P003",
+      "e": "gemini",
+      "stage": "mofu",
+      "outcome": "nobody",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P004",
+      "e": "chatgpt",
+      "stage": "mofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named"
+    },
+    {
+      "p": "P004",
+      "e": "perplexity",
+      "stage": "mofu",
+      "outcome": "competitor",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P004",
+      "e": "ai_overviews",
+      "stage": "mofu",
+      "outcome": "competitor",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P004",
+      "e": "gemini",
+      "stage": "mofu",
+      "outcome": "competitor",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P005",
+      "e": "chatgpt",
+      "stage": "bofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named_linked"
+    },
+    {
+      "p": "P005",
+      "e": "perplexity",
+      "stage": "bofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named_linked"
+    },
+    {
+      "p": "P005",
+      "e": "ai_overviews",
+      "stage": "bofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named"
+    },
+    {
+      "p": "P005",
+      "e": "ai_mode",
+      "stage": "bofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named_linked"
+    },
+    {
+      "p": "P005",
+      "e": "gemini",
+      "stage": "bofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named"
+    },
+    {
+      "p": "P006",
+      "e": "chatgpt",
+      "stage": "bofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named"
+    },
+    {
+      "p": "P006",
+      "e": "perplexity",
+      "stage": "bofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named_linked"
+    },
+    {
+      "p": "P006",
+      "e": "ai_overviews",
+      "stage": "bofu",
+      "outcome": "competitor",
+      "linked_only": false,
+      "state": "absent"
+    },
+    {
+      "p": "P006",
+      "e": "ai_mode",
+      "stage": "bofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named"
+    },
+    {
+      "p": "P006",
+      "e": "gemini",
+      "stage": "bofu",
+      "outcome": "named",
+      "linked_only": false,
+      "state": "named_linked"
+    }
+  ],
+  "ranges": {},
+  "claims": [
+    {
+      "key": "count.overall",
+      "type": "count",
+      "scope": {
+        "level": "overall"
+      },
+      "state": null,
+      "evidence": {
+        "k": 16,
+        "n": 29
+      },
+      "rule": {
+        "id": "count",
+        "version": 1
+      },
+      "since_run": null
+    }
+  ]
+}

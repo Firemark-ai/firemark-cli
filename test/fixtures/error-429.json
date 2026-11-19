@@ -1,0 +1,4 @@
+{
+  "error": "Rate limit reached.",
+  "code": "rate_limited"
+}

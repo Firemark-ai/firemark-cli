@@ -1,0 +1,28 @@
+Larkspur · run 12 · 2026-11-16 · publication v14
+6 prompts · 5 engines · run complete
+
+Named in 16 of 29 answers
+Linked in 8 of 29 answers
+
+By engine
+  ENGINE        NAMED IN
+  ChatGPT       5 of 6 answers
+  Perplexity    3 of 6 answers
+  AI Overviews  3 of 6 answers
+  AI Mode       3 of 5 answers
+  Gemini        2 of 6 answers
+
+By stage
+  STAGE  NAMED IN
+  TOFU   3 of 10 answers
+  MOFU   4 of 9 answers
+  BOFU   9 of 10 answers
+
+Competitors
+  RANK  NAME           NAMED IN
+  1     Fernwood       14 of 29 answers
+  3     Halden & Co    5 of 29 answers
+  4     Marrow Supply  3 of 29 answers
+
+Breaks in the series
+  2026-11-09  AI Mode  AI Mode answers are read a new way from this run.
